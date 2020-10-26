@@ -1,5 +1,5 @@
 
- Copyright 2019 D-Wave Systems Inc.
+#Copyright 2019 D-Wave Systems Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -60,7 +60,7 @@ S = dnx.maximum_independent_set(G, sampler=sampler, num_reads = 10)
 timestamp = datetime.datetime.now()
 print(" ")
 print("--------------------------------------------------------------")
-print("Visual test  3 x 30")
+print("")
 print("Run                             ",timestamp)
 print("--------------------------------------------------------------")
 print("Total avaiable seats - nodes  15 in each section "),
